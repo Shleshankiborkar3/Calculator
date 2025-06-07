@@ -1,0 +1,62 @@
+/* src/Calculator.css */
+
+body {
+  background-image:url('D:\project\my-app\src\bg.jpg');
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  max-width: 380px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #ffffffdd;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  margin-bottom: 15px;
+}
+
+.input-box {
+  width: 95%;
+  font-size: 1.8em;
+  padding: 10px;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.result {
+  text-align: right;
+  color: #333;
+  font-size: 1.2em;
+  margin-top: 5px;
+  min-height: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.2em;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #dcdcdc;
+}
+
+button:active {
+  background-color: #030303;
+}
